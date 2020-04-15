@@ -7,7 +7,7 @@ import 'rxjs/add/observable/from';
 export class StaticDataSource {
   private products: Product[] = [
     new Product(1, "Product 1", "Category 1", "Product 1 (Category 1)", 100),
-    new Product(2, "Product 2", "Category 1", "Product 2 (Category 1)", 200),
+    new Product(2, "Basketball ball", "Category 1", "The very quality ball from the leading company GOLD", 200),
     new Product(3, "Product 3", "Category 1", "Product 3 (Category 1)", 100),
     new Product(4, "Product 4", "Category 1", "Product 4 (Category 1)", 100),
     new Product(5, "Product 5", "Category 1", "Product 5 (Category 1)", 100),
@@ -18,7 +18,7 @@ export class StaticDataSource {
     new Product(10, "Product 10", "Category 2", "Product 10 (Category 2)", 29),
     new Product(11, "Product 11", "Category 3", "Product 11 (Category 3)", 100),
     new Product(12, "Product 12", "Category 3", "Product 12 (Category 3)", 100),
-    new Product(13, "Product 13", "Category 3", "Product 13 (Category 3)", 701),
+    new Product(13, "Treadmill", "Category 3", "The most popular treadmill from CATTAN", 701),
     new Product(14, "Product 14", "Category 3", "Product 14 (Category 3)", 100),
     new Product(15, "Product 15", "Category 3", "Product 15 (Category 3)", 100),
   ];
