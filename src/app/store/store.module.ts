@@ -6,10 +6,11 @@ import {StoreComponent} from './store.component';
 import {CounterDirective} from './counter.directive';
 import { CartSummaryComponent } from './cart-summary/cart-summary.component';
 import { CartDetailComponent } from './cart-detail/cart-detail.component';
+import { CheckoutComponent } from './checkout/checkout.component';
 
 @NgModule({
   imports: [ModelModule, BrowserModule, FormsModule],
-  declarations: [CounterDirective, StoreComponent, CartSummaryComponent, CartDetailComponent],
-  exports: [StoreComponent]
+  declarations: [CounterDirective, StoreComponent, CartSummaryComponent, CartDetailComponent, CheckoutComponent],
+  exports: [StoreComponent, CartDetailComponent, CheckoutComponent]
 })
 export class StoreModule { }
