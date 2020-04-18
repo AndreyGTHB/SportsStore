@@ -10,6 +10,7 @@
     "no-trailing-whitespace": false,
     "ban-types": false,
     "array-type": false,
+    "triple-equals": false,
     "arrow-return-shorthand": true,
     "curly": true,
     "deprecation": {
