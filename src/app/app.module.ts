@@ -1,12 +1,12 @@
-import {BrowserModule} from '@angular/platform-browser';
-import {NgModule} from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
 
-import {AppComponent} from './app.component';
-import {StoreModule} from './store/store.module';
-import {RouterModule} from "@angular/router";
-import {StoreComponent} from "./store/store.component";
-import {CartDetailComponent} from "./store/cart-detail/cart-detail.component";
-import {CheckoutComponent} from "./store/checkout/checkout.component";
+import { AppComponent } from './app.component';
+import { StoreModule } from './store/store.module';
+import { RouterModule } from "@angular/router";
+import { StoreComponent } from "./store/store.component";
+import { CartDetailComponent } from "./store/cart-detail/cart-detail.component";
+import { CheckoutComponent } from "./store/checkout/checkout.component";
 
 @NgModule({
   declarations: [
