@@ -1,5 +1,4 @@
-<div class="pull-xs-right">
-  <small>
+<div class="pull-xs-right" routerLink="/cart">
     Your cart:
     <span *ngIf="cart.itemCount > 0">
 {{ cart.itemCount }} item(s)
@@ -8,8 +7,4 @@
     <span *ngIf="cart.itemCount == 0">
 (empty)
 </span>
-  </small>
-  <button class="btn btn-sm bg-inverse" [disabled]="cart.itemCount == 0">
-    <i class="fa fa-shopping-cart"></i>
-  </button>
 </div>
