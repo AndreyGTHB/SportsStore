@@ -43,6 +43,6 @@ export class StoreComponent {
 
   addProductToCart(product: Product) {
     this.cart.addLine(product);
-    this.router.navigateByUrl('/cart').then(r => r);
+    this.router.navigateByUrl('/cart');
   }
 }

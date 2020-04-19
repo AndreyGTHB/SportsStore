@@ -8,12 +8,13 @@ import { StoreComponent } from "./store/store.component";
 export class StoreFirstGuard {
   private firstNavigation = true;
   constructor(private router: Router) { }
+
   canActivate(route: ActivatedRouteSnapshot,
               state: RouterStateSnapshot): boolean {
     if (this.firstNavigation) {
       this.firstNavigation = false;
       if (route.component != StoreComponent) {
-        this.router.navigateByUrl("/");
+        this.router.navigateByUrl("/store");
         return false;
       }
     }
